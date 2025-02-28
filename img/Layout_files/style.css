@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-size: cover;
+}
+header{
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(7, 35, 244);
+}
+main{
+    height: 100px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    background-color: olivedrab;
+
+}
+footer{
+    height: 50px;
+    display: flex;
+    background-color: aqua;
+}
